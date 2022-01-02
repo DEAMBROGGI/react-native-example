@@ -9,7 +9,7 @@ return(
 
 <StateProvider initialState={initialState } reducer = {reducer}>
 <Test/>
-</StateProvider>
+</StateProvider> 
 
 
 )
