@@ -38,7 +38,7 @@ export default function Test() {
       <Separator/>
       <TextInput
         style={{height: 40}}
-        placeholder="Type here to translate the text test!"
+        placeholder="Type here to translate the text test aaaaaaaaaaaaaaaaaaaaa!"
         onChangeText={texto => dispatch({type: actionTypes.TEXT,
                                         text:texto})}
        
