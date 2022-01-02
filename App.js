@@ -1,15 +1,18 @@
-import { View, Text } from "react-native";
 
-export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
-  );
+import Test from './Test'
+import { StateProvider } from './src/core/StateProvider';
+import reducer, {initialState} from './src/core/reducer'
+
+export  function App() {
+return(
+
+
+<StateProvider initialState={initialState } reducer = {reducer}>
+<Test/>
+</StateProvider>
+
+
+)
+
 }
+export default App

@@ -1,0 +1,11 @@
+React Native nos permite desarrollar aplicaciones nativas Android y IOS 
+con codigo JS
+
+1- npm install - g create-react-native-app
+2- create react-native-app "nombre"
+3- Les va a indicar que exto no esta instalado y la opcion para instalarlo.
+
+si lo quieren emular en un dispositivo instalan Android Estudio
+4- npm run web
+
+ATENCION NO UTILIZA HTML NI CSS, HTML SE REEMPLAZAN POR LOAS COMPONENTES PROPIO DE NATIVE Y CSS POR LAS StyleSheet
